@@ -1,0 +1,139 @@
+.home-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #f0f4ff, #ffffff);
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  color: #1e3a8a;
+  margin: 0 0 10px 0;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.hero-image img {
+  width: 350px;
+  max-width: 100%;
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px) rotate(-2deg); }
+  100% { transform: translateY(0px); }
+}
+
+/* Account summary */
+.account-summary {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(16,24,40,0.06);
+  text-align: center;
+}
+
+.account-summary h2 {
+  margin: 0 0 10px 0;
+  color: #444;
+}
+
+.balance {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.actions button {
+  margin: 5px;
+  padding: 10px 16px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: #1e3a8a;
+  color: #fff;
+}
+
+.actions button:hover {
+  background: #3b82f6;
+}
+/* Features Cards Section */
+.features-section {
+  margin-top: 40px;
+}
+
+.features-section h2 {
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.features-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.06);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(16, 24, 40, 0.12);
+}
+
+.feature-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.feature-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #1e3a8a;
+  color: #d4baba;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #0e5e29;
+  transform: translateY(-5px);
+}

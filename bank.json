@@ -1,0 +1,75 @@
+{
+  "account": [
+    {
+      "id": "fb4b",
+      "acno": "SBI101",
+      "pin": "1234",
+      "name": "Shreya Lakhera",
+      "fname": "",
+      "email": "",
+      "phone": "09389917632",
+      "gender": "Female",
+      "country": "",
+      "state": "Uttarakhand",
+      "city": "Srinagar",
+      "amount": 6070,
+      "eamil": "shreyalakhera922@gmail.com",
+      "country ": "India"
+    },
+    {
+      "id": "d038",
+      "acno": "SBI2",
+      "pin": "123456",
+      "name": "Shi",
+      "fname": "",
+      "email": "",
+      "phone": "329740316y",
+      "gender": "Male",
+      "country": "",
+      "state": "Uttarakhand",
+      "city": "Srinagar",
+      "amount": "12000",
+      "eamil": "shi922@gmail.com",
+      "country ": "India"
+    },
+    {
+      "id": "d36b",
+      "acno": "SBI104",
+      "pin": "7878",
+      "name": "shagun",
+      "fname": "deepak lal",
+      "email": "",
+      "phone": "8438812374",
+      "gender": "Female",
+      "country": "",
+      "state": "Uttarakhand",
+      "city": "Srinagar",
+      "amount": 6480,
+      "eamil": "shagun1@gmail",
+      "country ": "India"
+    }
+  ],
+  "mytrans": [
+    {
+      "id": "2a4e",
+      "acno": "SBI101",
+      "Des": "Withdraw",
+      "amount": "50",
+      "date": "23/10/2025, 8:26:42 pm"
+    },
+    {
+      "id": "2de9",
+      "acno": "SBI104",
+      "Des": "Transfer",
+      "amount": "10",
+      "date": "24/10/2025, 12:11:31 am"
+    },
+    {
+      "id": "1120",
+      "acno": "SBI101",
+      "Des": "Recieve",
+      "amount": "10",
+      "date": "24/10/2025, 12:11:31 am"
+    }
+  ]
+}
