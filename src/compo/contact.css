@@ -1,0 +1,77 @@
+/* Container */
+.contact-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Card */
+.contact-card {
+  background-color: #fff;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.contact-title {
+  text-align: center;
+  color: #1d4ed8;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.contact-form label {
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Inputs and textarea */
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #1d4ed8;
+  box-shadow: 0 0 5px rgba(29, 78, 216, 0.3);
+}
+
+/* Button */
+.contact-form button {
+  padding: 12px;
+  background-color: #1d4ed8;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #2563eb;
+  box-shadow: 0 5px 15px rgba(29, 78, 216, 0.3);
+}
