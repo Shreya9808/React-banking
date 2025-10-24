@@ -26,6 +26,7 @@ function AccSum()
 
             var res1=await axios.get("http://localhost:3000/mytrans")
             var dt=res1.data.filter(item=>item.acno=data.acno)
+            console.log(dt)
             setTrans(dt)
         }
         else

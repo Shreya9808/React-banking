@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# React Online Banking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based Online Banking System.
+
+Check out the live website here: [Visit Website](https://shreya9808.github.io/React-banking/)
+
 
 ## Available Scripts
 
